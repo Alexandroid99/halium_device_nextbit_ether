@@ -209,16 +209,12 @@ vendor/lib/libmmcamera_s5k5e2evt1.so
 vendor/lib/libmmcamera_s5k5e2.so
 
 # CNE
--priv-app/CNEService/CNEService.apk
 bin/cnd
 etc/cne/SwimConfig.xml
 etc/cne/andsfCne.xml
 etc/permissions/ConnectivityExt.xml
 etc/permissions/cneapiclient.xml
 etc/permissions/com.quicinc.cne.xml
-framework/cneapiclient.jar
-framework/com.quicinc.cne.jar
-framework/ConnectivityExt.jar
 vendor/lib/libcne.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libcneqmiutils.so
@@ -238,9 +234,6 @@ etc/dpm/dpm.conf
 etc/dpm/nsrm/NsrmConfiguration.xml
 etc/permissions/com.qti.dpmframework.xml
 etc/permissions/dpmapi.xml
-framework/com.qti.dpmframework.jar
-framework/dpmapi.jar
-framework/tcmclient.jar
 vendor/lib/libdpmctmgr.so
 vendor/lib/libdpmfdmgr.so
 vendor/lib/libdpmframework.so
@@ -347,7 +340,6 @@ vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxQcelp13Dec.so
 
 # Network
--priv-app/QtiTetherService/QtiTetherService.apk
 vendor/lib/libconnctrl.so
 vendor/lib64/libconnctrl.so
 vendor/lib64/libQtiTether.so
@@ -403,9 +395,6 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libsmemlog.so
 
 # Radio
--app/datastatusnotification/datastatusnotification.apk
--app/fastdormancy/fastdormancy.apk
--app/shutdownlistener/shutdownlistener.apk
 bin/netmgrd
 bin/qmuxd
 bin/radish
@@ -418,11 +407,6 @@ etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 etc/permissions/qti_telephony_common.xml
--framework/qcnvitems.jar
--framework/qcrilhook.jar
-framework/qti-telephony-common.jar
-framework/QtiTelephonyServicelibrary.jar
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/qti
 vendor/lib/liblqe.so
 vendor/lib/libmdmdetect.so
@@ -470,8 +454,6 @@ vendor/lib64/lib-rtpdaemoninterface.so
 vendor/lib64/lib-rtpsl.so
 vendor/lib64/librcc.so
 vendor/lib64/libvoice-svc.so
--vendor/app/ims/ims.apk
--vendor/app/imssettings/imssettings.apk
 
 # Sensors
 bin/sensors.qcom
@@ -504,7 +486,6 @@ vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
 # Time services
--app/TimeService/TimeService.apk
 bin/time_daemon
 vendor/lib/libTimeService.so
 vendor/lib/libtime_genoff.so
