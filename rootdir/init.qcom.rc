@@ -198,6 +198,9 @@ on post-fs-data
     chmod 2770 /data/system/perfd
     rm /data/system/perfd/default_values
 
+    # Wifi kernel module loading
+    insmod /system/lib/modules/bcmdhd.ko
+
 service perfd /system/vendor/bin/perfd
     class main
     user root
@@ -359,3 +362,5 @@ service hostapd /system/bin/hostapd /data/hostapd/hostapd.conf
 
 on property:dev.bootcomplete=1
     setprop sys.io.scheduler "bfq"
+
+# Load Wifi kernel module 
