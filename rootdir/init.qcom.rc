@@ -199,7 +199,8 @@ on post-fs-data
     rm /data/system/perfd/default_values
 
     # Wifi kernel module loading
-    insmod /system/lib/modules/bcmdhd.ko
+    insmod /system/lib/modules/brcmutil.ko
+    insmod /system/lib/modules/brcmfmac.ko
 
 service perfd /system/vendor/bin/perfd
     class main
